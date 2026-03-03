@@ -1,5 +1,5 @@
-## Web Audio Touch Unlock Example
+## 🔊🔓💁 Web Audio Unlock Example
 
-### An example showcasing [web-audio-touch-unlock](https://github.com/pavle-goloskokovic/web-audio-touch-unlock/) in action.
+### An example showcasing [web-audio-unlock](https://github.com/pavle-goloskokovic/web-audio-unlock/) in action.
 
-### Try it live [here](https://pavle-goloskokovic.github.io/web-audio-touch-unlock-example/).
+### Try it live [here](https://pavle-goloskokovic.github.io/web-audio-unlock-example/).

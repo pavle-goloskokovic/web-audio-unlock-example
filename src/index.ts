@@ -1,4 +1,4 @@
-import webAudioTouchUnlock from 'web-audio-touch-unlock';
+import webAudioUnlock from 'web-audio-unlock';
 import { printError, setMessage } from './ui';
 
 let AudioContext = (<any>window).AudioContext || (<any>window).webkitAudioContext;
@@ -16,7 +16,7 @@ else
 
     let context = new AudioContext();
 
-    webAudioTouchUnlock(context).then((unlocked: boolean) => {
+    webAudioUnlock(context).then((unlocked: boolean) => {
 
             if (errored)
             {

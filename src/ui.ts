@@ -15,14 +15,14 @@ export let hideFooter = () =>
 export let setMessage = (id: string, key: string) =>
 {
     let messages: { [key: string]: string } = {
-        tap:      `Tap anywhere to unlock...`,
+        tap:      `Interact with the page to unlock...`,
         loading:  `Loading audio...`,
         there:    `There you go!`,
         playing:  `Playing sweet, sweet music!`,
         abit:     `Just a bit more...`,
-        fine:     `You're fine here,\ntry it on an iOS device.`,
+        fine:     `You're fine here,\ntry on another device.`,
         decoding: `Decoding audio...`,
-        waiting:  `Waiting for touch unlock...`
+        waiting:  `Waiting for unlock gesture...`
     };
 
     let element = <HTMLElement>document.getElementById(id);
@@ -51,7 +51,7 @@ export let printError = (error: any) =>
     message.innerHTML = `<span class="error">ERROR!</span><br><br><span class="error-message">${error}</span>`;
 
     let status = <HTMLElement>document.getElementById('status');
-    status.innerHTML = `<span class="error-message">Seems like this approach can't be used with current implementation of Web Audio API. We're sorry about that, however you can open an issue <a href="https://github.com/pavle-goloskokovic/web-audio-touch-unlock/issues">here</a> and we'll try to sort it out.</span>`;
+    status.innerHTML = `<span class="error-message">Seems like this approach can't be used with current implementation of Web Audio API. We're sorry about that, however you can open an issue <a href="https://github.com/pavle-goloskokovic/web-audio-unlock/issues">here</a>, and we'll try to sort it out.</span>`;
 
     resizeErrors();
 

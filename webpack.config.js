@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     entry: './src/index.ts',
     output: {
-        filename: 'web-audio-touch-unlock-example.js',
+        filename: 'web-audio-unlock-example.js',
         path: path.resolve(__dirname, 'dist')
     },
     resolve: {

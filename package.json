@@ -1,44 +1,40 @@
 {
-  "name": "web-audio-touch-unlock-example",
-  "version": "1.0.0",
-  "description": "WebAudio Touch Unlock Example",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pavle-goloskokovic/web-audio-touch-unlock-example.git"
-  },
-  "keywords": [
-    "web",
-    "audio",
-    "webaudio",
-    "unlock",
-    "touch",
-    "mobile",
-    "ios",
-    "android",
-    "ipad",
-    "iphone",
-    "apple",
-    "javascript",
-    "html5",
-    "typescript"
-  ],
-  "author": "Pavle Goloskokovic <pgoloskokovic@gmail.com> (http://prunegames.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pavle-goloskokovic/web-audio-touch-unlock-example/issues"
-  },
-  "homepage": "https://github.com/pavle-goloskokovic/web-audio-touch-unlock-example#readme",
-  "dependencies": {
-    "web-audio-touch-unlock": "^1.0.1"
-  },
-  "devDependencies": {
-    "ts-loader": "^3.5.0",
-    "typescript": "^2.7.1",
-    "webpack": "^3.11.0"
-  }
+    "name": "web-audio-unlock-example",
+    "version": "0.2.0",
+    "description": "WebAudio Unlock Example",
+    "private": "true",
+    "scripts": {
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pavle-goloskokovic/web-audio-unlock-example.git"
+    },
+    "keywords": [
+        "web",
+        "audio",
+        "webaudio",
+        "unlock",
+        "autoplay",
+        "gesture",
+        "pointer",
+        "browser",
+        "javascript",
+        "html5",
+        "typescript"
+    ],
+    "author": "Pavle Goloskokovic <pgoloskokovic@gmail.com> (https://prunegames.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pavle-goloskokovic/web-audio-unlock-example/issues"
+    },
+    "homepage": "https://github.com/pavle-goloskokovic/web-audio-unlock-example#readme",
+    "dependencies": {
+        "web-audio-unlock": "^1.0.0"
+    },
+    "devDependencies": {
+        "ts-loader": "^3.5.0",
+        "typescript": "^2.7.1",
+        "webpack": "^3.11.0"
+    }
 }
